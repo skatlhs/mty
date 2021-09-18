@@ -105,7 +105,11 @@ a.allsides-8:hover {
   background-position: 100% 100%, 0 0, 0 0, 100% 100%;
   background-color: rgba(255, 255, 255, 0.24);
   text-decoration: none;
+  
+
+  
 }
+
 
 .section1 {
   height: 90vh;
@@ -170,6 +174,7 @@ a.nav-custom:hover {
 .nav-custom-sticky {
   position: -webkit-sticky !important;
   position: sticky !important;
+  z-index: 11;
   top: 0;
 }
 
@@ -202,8 +207,7 @@ a.nav-custom:hover {
 
 .content-main {
   height: auto;
-  background: black;
-  padding-bottom: 200px;
+  
 }
 
 .section-1-header-content h1 {
@@ -223,9 +227,9 @@ a.nav-custom:hover {
 .primary-button {
   color: var(--primary);
   line-height: 2.2;
-  font-weight: 900;
+  font-weight: 400;
   text-decoration: none;
-  font-size: 16pt;
+  font-size: 14pt;
   background: #ffffff;
   padding: 15px 25px;
   border-radius: 10px;
@@ -279,4 +283,62 @@ a.nav-custom:hover {
   padding-top: 0 !important;
   background: #f3f5f7;
   background: #f7f7f7;
+}
+
+.section-card {
+  background: white;
+  border: 2px solid #fdfdfd;
+  border-radius: 5px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 100px;
+    -webkit-box-shadow: 0px 1px 10px #e1e3f5;
+  -moz-box-shadow: 0px 1px 10px #e1e3f5;
+  box-shadow: 0px 1px 10px #e8eaff;
+}
+
+.section-card h2 {
+  font-size: 22pt; color: var(--primary);
+  text-align: center;
+}
+
+.section-card p {
+  font-size: 12pt; color: var(--primary); text-align: center;
+}
+
+.section-card img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  border: 2px solid white;
+    -webkit-box-shadow: 0px 1px 10px #e1e3f5;
+  -moz-box-shadow: 0px 1px 10px #e1e3f5;
+  box-shadow: 0px 1px 10px #b5baef;
+  margin-bottom: 40px;
+}
+
+.h2-default  {
+  font-size: 22pt; color: var(--primary);
+
+}
+
+.standard-p  {
+  font-size: 12pt; color: var(--primary); 
+  line-height: 40px;
+}
+
+a.n2-ss-item-content {
+/*
+  position: relative;
+  left: 20px;
+*/
+  z-index: 99999;
+}
+
+.z-index-site #page {
+  position: relative;
+  z-index: 9999999999;
+  height: 100vh !important;
 }
